@@ -32,40 +32,40 @@ export function UseCases() {
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Casos de Uso</h2>
-          <h3 className="text-3xl md:text-5xl font-bold mb-6 text-white">
+          <h3 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
             La Inteligencia Artificial en <span className="text-gradient-brand">acción</span>
           </h3>
-          <p className="text-lg text-white/70">
+          <p className="text-lg text-foreground/70">
             Ejemplos reales de cómo nuestras soluciones resuelven problemas cotidianos y generan un impacto medible en las empresas.
           </p>
         </div>
 
         <div className="space-y-8">
           {cases.map((useCase, index) => (
-            <div key={index} className="glass-card p-6 md:p-10 border border-white/5 flex flex-col md:flex-row gap-8 lg:gap-12 hover:border-white/10 transition-colors">
+            <div key={index} className="glass-card p-6 md:p-10 border border-foreground/5 flex flex-col md:flex-row gap-8 lg:gap-12 hover:border-foreground/10 transition-colors">
               <div className="md:w-1/3">
                 <span className="text-brand text-sm font-bold tracking-wider uppercase mb-3 block">{useCase.category}</span>
-                <h4 className="text-2xl font-bold text-white">{useCase.title}</h4>
+                <h4 className="text-2xl font-bold text-foreground">{useCase.title}</h4>
               </div>
               
               <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
                 <div>
-                  <h5 className="text-white font-semibold mb-2 flex items-center gap-2">
+                  <h5 className="text-foreground font-semibold mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-red-500" /> El Problema
                   </h5>
-                  <p className="text-white/60 text-sm leading-relaxed">{useCase.problem}</p>
+                  <p className="text-foreground/60 text-sm leading-relaxed">{useCase.problem}</p>
                 </div>
                 <div>
-                  <h5 className="text-white font-semibold mb-2 flex items-center gap-2">
+                  <h5 className="text-foreground font-semibold mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-brand" /> La Solución
                   </h5>
-                  <p className="text-white/60 text-sm leading-relaxed">{useCase.solution}</p>
+                  <p className="text-foreground/60 text-sm leading-relaxed">{useCase.solution}</p>
                 </div>
-                <div className="sm:col-span-2 pt-4 border-t border-white/10">
-                  <h5 className="text-white font-semibold mb-2 flex items-center gap-2">
+                <div className="sm:col-span-2 pt-4 border-t border-foreground/10">
+                  <h5 className="text-foreground font-semibold mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-green-500" /> El Resultado
                   </h5>
-                  <p className="text-white/80 font-medium">{useCase.result}</p>
+                  <p className="text-foreground/80 font-medium">{useCase.result}</p>
                 </div>
               </div>
             </div>

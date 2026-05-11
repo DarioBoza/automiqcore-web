@@ -30,10 +30,10 @@ export function Process() {
         
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Cómo Trabajamos</h2>
-          <h3 className="text-3xl md:text-5xl font-bold mb-6 text-white">
+          <h3 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
             Un método probado hacia la <span className="text-gradient-brand">eficiencia</span>
           </h3>
-          <p className="text-lg text-white/70">
+          <p className="text-lg text-foreground/70">
             No improvisamos. Nuestro proceso garantiza resultados medibles y una transición fluida hacia operaciones impulsadas por IA.
           </p>
         </div>
@@ -46,15 +46,15 @@ export function Process() {
                 <div className="hidden lg:block absolute top-8 left-[60%] w-full h-[2px] bg-gradient-to-r from-brand/50 to-transparent z-0" />
               )}
               
-              <div className="relative z-10 glass-card p-8 h-full flex flex-col items-start border border-white/5 hover:border-brand/30 transition-colors">
-                <div className="text-4xl font-black text-white/5 mb-6 group-hover:text-brand/20 transition-colors">
+              <div className="relative z-10 glass-card p-8 h-full flex flex-col items-start border border-foreground/5 hover:border-brand/30 transition-colors">
+                <div className="text-4xl font-black text-foreground/5 mb-6 group-hover:text-brand/20 transition-colors">
                   {step.number}
                 </div>
-                <h4 className="text-xl font-bold text-white mb-4 relative inline-block">
+                <h4 className="text-xl font-bold text-foreground mb-4 relative inline-block">
                   {step.title}
                   <div className="absolute -bottom-2 left-0 w-8 h-1 bg-brand rounded-full transition-all group-hover:w-full" />
                 </h4>
-                <p className="text-white/60 leading-relaxed mt-2">
+                <p className="text-foreground/60 leading-relaxed mt-2">
                   {step.description}
                 </p>
               </div>

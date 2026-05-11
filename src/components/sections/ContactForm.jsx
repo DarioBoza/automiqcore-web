@@ -13,10 +13,10 @@ export function ContactForm() {
           {/* Left: Info */}
           <div className="lg:col-span-2">
             <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Contáctanos</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
+            <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
               Cuéntanos sobre tu negocio
             </h3>
-            <p className="text-white/60 leading-relaxed mb-8">
+            <p className="text-foreground/60 leading-relaxed mb-8">
               Completa el formulario y te responderemos en menos de 24 horas con un análisis inicial de cómo podemos ayudarte.
             </p>
 
@@ -26,8 +26,8 @@ export function ContactForm() {
                   <Mail className="w-5 h-5 text-brand" />
                 </div>
                 <div>
-                  <p className="text-xs text-white/40 mb-0.5">Email</p>
-                  <a href="mailto:hectordariobozacarrasco@gmail.com" className="text-white/80 text-sm hover:text-brand transition-colors">
+                  <p className="text-xs text-foreground/40 mb-0.5">Email</p>
+                  <a href="mailto:hectordariobozacarrasco@gmail.com" className="text-foreground/80 text-sm hover:text-brand transition-colors">
                     hectordariobozacarrasco@gmail.com
                   </a>
                 </div>
@@ -38,8 +38,8 @@ export function ContactForm() {
                   <Phone className="w-5 h-5 text-[#25D366]" />
                 </div>
                 <div>
-                  <p className="text-xs text-white/40 mb-0.5">WhatsApp</p>
-                  <a href="https://wa.me/51933805954" target="_blank" rel="noopener noreferrer" className="text-white/80 text-sm hover:text-[#25D366] transition-colors">
+                  <p className="text-xs text-foreground/40 mb-0.5">WhatsApp</p>
+                  <a href="https://wa.me/51933805954" target="_blank" rel="noopener noreferrer" className="text-foreground/80 text-sm hover:text-[#25D366] transition-colors">
                     +51 933 805 954
                   </a>
                 </div>
@@ -50,8 +50,8 @@ export function ContactForm() {
                   <MessageSquare className="w-5 h-5 text-brand" />
                 </div>
                 <div>
-                  <p className="text-xs text-white/40 mb-0.5">Respuesta</p>
-                  <p className="text-white/80 text-sm">En menos de 24 horas</p>
+                  <p className="text-xs text-foreground/40 mb-0.5">Respuesta</p>
+                  <p className="text-foreground/80 text-sm">En menos de 24 horas</p>
                 </div>
               </div>
             </div>
@@ -59,17 +59,12 @@ export function ContactForm() {
 
           {/* Right: Form */}
           <div className="lg:col-span-3">
-            <div className="glass-card p-8 border border-white/5">
-              {/*
-                formsubmit.co envía el formulario directamente a tu email.
-                La primera vez que se envíe, recibirás un email de confirmación para activarlo.
-              */}
+            <div className="glass-card p-8 border border-foreground/5">
               <form
                 action="https://formsubmit.co/hectordariobozacarrasco@gmail.com"
                 method="POST"
                 className="flex flex-col gap-5"
               >
-                {/* Opciones de formsubmit.co */}
                 <input type="hidden" name="_subject" value="Nueva consulta desde AUTOMIQ -CORE-" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
@@ -77,7 +72,7 @@ export function ContactForm() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div className="flex flex-col gap-1.5">
-                    <label htmlFor="nombre" className="text-sm text-white/60 font-medium">
+                    <label htmlFor="nombre" className="text-sm text-foreground/60 font-medium">
                       Nombre completo <span className="text-brand">*</span>
                     </label>
                     <input
@@ -86,12 +81,12 @@ export function ContactForm() {
                       name="nombre"
                       required
                       placeholder="Ej. Juan Pérez"
-                      className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-white/8 transition-colors"
+                      className="bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground placeholder:text-foreground/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-foreground/8 transition-colors"
                     />
                   </div>
 
                   <div className="flex flex-col gap-1.5">
-                    <label htmlFor="empresa" className="text-sm text-white/60 font-medium">
+                    <label htmlFor="empresa" className="text-sm text-foreground/60 font-medium">
                       Empresa
                     </label>
                     <input
@@ -99,13 +94,13 @@ export function ContactForm() {
                       type="text"
                       name="empresa"
                       placeholder="Nombre de tu empresa"
-                      className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-white/8 transition-colors"
+                      className="bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground placeholder:text-foreground/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-foreground/8 transition-colors"
                     />
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="email" className="text-sm text-white/60 font-medium">
+                  <label htmlFor="email" className="text-sm text-foreground/60 font-medium">
                     Email de contacto <span className="text-brand">*</span>
                   </label>
                   <input
@@ -114,31 +109,31 @@ export function ContactForm() {
                     name="email"
                     required
                     placeholder="tu@empresa.com"
-                    className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-white/8 transition-colors"
+                    className="bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground placeholder:text-foreground/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-foreground/8 transition-colors"
                   />
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="servicio" className="text-sm text-white/60 font-medium">
+                  <label htmlFor="servicio" className="text-sm text-foreground/60 font-medium">
                     ¿En qué servicio estás interesado?
                   </label>
                   <select
                     id="servicio"
                     name="servicio"
-                    className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand/60 transition-colors appearance-none"
+                    className="bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground text-sm focus:outline-none focus:border-brand/60 transition-colors appearance-none"
                   >
-                    <option value="" className="bg-dark text-white">Selecciona un servicio...</option>
-                    <option value="Agendar Llamada" className="bg-dark text-white font-bold text-brand">📅 Agendar una Llamada Estratégica</option>
-                    <option value="Automatizaciones con IA" className="bg-dark text-white">Automatizaciones con IA</option>
-                    <option value="Agentes de IA" className="bg-dark text-white">Agentes de IA Personalizados</option>
-                    <option value="Landing Webs" className="bg-dark text-white">Landing Webs de Alta Conversión</option>
-                    <option value="Webs Profesionales" className="bg-dark text-white">Webs Profesionales</option>
-                    <option value="Integraciones de Sistemas" className="bg-dark text-white">Integraciones de Sistemas</option>
+                    <option value="" className="bg-background text-foreground">Selecciona un servicio...</option>
+                    <option value="Agendar Llamada" className="bg-background text-brand font-bold">📅 Agendar una Llamada Estratégica</option>
+                    <option value="Automatizaciones con IA" className="bg-background text-foreground">Automatizaciones con IA</option>
+                    <option value="Agentes de IA" className="bg-background text-foreground">Agentes de IA Personalizados</option>
+                    <option value="Landing Webs" className="bg-background text-foreground">Landing Webs de Alta Conversión</option>
+                    <option value="Webs Profesionales" className="bg-background text-foreground">Webs Profesionales</option>
+                    <option value="Integraciones de Sistemas" className="bg-background text-foreground">Integraciones de Sistemas</option>
                   </select>
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="mensaje" className="text-sm text-white/60 font-medium">
+                  <label htmlFor="mensaje" className="text-sm text-foreground/60 font-medium">
                     Cuéntanos tu desafío <span className="text-brand">*</span>
                   </label>
                   <textarea
@@ -147,7 +142,7 @@ export function ContactForm() {
                     required
                     rows={4}
                     placeholder="Describe brevemente qué procesos quieres mejorar o automatizar..."
-                    className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-white/8 transition-colors resize-none"
+                    className="bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground placeholder:text-foreground/30 text-sm focus:outline-none focus:border-brand/60 focus:bg-foreground/8 transition-colors resize-none"
                   />
                 </div>
 
@@ -158,7 +153,7 @@ export function ContactForm() {
                   Enviar consulta <ArrowRight className="w-5 h-5" />
                 </button>
 
-                <p className="text-center text-xs text-white/30">
+                <p className="text-center text-xs text-foreground/30">
                   Al enviar aceptas que te contactemos con información sobre nuestros servicios. Sin spam.
                 </p>
               </form>

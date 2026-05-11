@@ -23,7 +23,7 @@ export function Hero() {
             <span className="text-gradient-brand">Inteligencia Artificial</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed">
             Ayudamos a empresas a optimizar procesos, reducir costos y escalar resultados mediante automatizaciones avanzadas y agentes de IA personalizados.
           </p>
           
@@ -39,29 +39,29 @@ export function Hero() {
 
         {/* Visual Tech Element */}
         <div className="mt-20 md:mt-32 relative">
-          <div className="glass-card p-4 md:p-8 rounded-3xl border border-white/10 shadow-2xl relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent pointer-events-none" />
+          <div className="glass-card p-4 md:p-8 rounded-3xl border border-foreground/10 shadow-2xl relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-b from-foreground/5 to-transparent pointer-events-none" />
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
-              <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-white/5 flex flex-col items-center text-center">
+              <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-foreground/5 flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-brand/20 rounded-xl flex items-center justify-center mb-4 text-brand">
                   <Bot className="w-6 h-6" />
                 </div>
-                <h3 className="text-white font-semibold mb-2">Agentes Inteligentes</h3>
-                <p className="text-sm text-white/60">Atención 24/7 y resolución automática de consultas frecuentes.</p>
+                <h3 className="text-foreground font-semibold mb-2">Agentes Inteligentes</h3>
+                <p className="text-sm text-foreground/60">Atención 24/7 y resolución automática de consultas frecuentes.</p>
               </div>
-              <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-white/5 flex flex-col items-center text-center">
+              <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-foreground/5 flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-brand/20 rounded-xl flex items-center justify-center mb-4 text-brand">
                   <Zap className="w-6 h-6" />
                 </div>
-                <h3 className="text-white font-semibold mb-2">Automatización Total</h3>
-                <p className="text-sm text-white/60">Conectamos tus herramientas para eliminar tareas repetitivas.</p>
+                <h3 className="text-foreground font-semibold mb-2">Automatización Total</h3>
+                <p className="text-sm text-foreground/60">Conectamos tus herramientas para eliminar tareas repetitivas.</p>
               </div>
-              <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-white/5 flex flex-col items-center text-center">
+              <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-foreground/5 flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-brand/20 rounded-xl flex items-center justify-center mb-4 text-brand">
                   <BarChart3 className="w-6 h-6" />
                 </div>
-                <h3 className="text-white font-semibold mb-2">Decisiones con Datos</h3>
-                <p className="text-sm text-white/60">Análisis predictivo para impulsar el crecimiento de tu negocio.</p>
+                <h3 className="text-foreground font-semibold mb-2">Decisiones con Datos</h3>
+                <p className="text-sm text-foreground/60">Análisis predictivo para impulsar el crecimiento de tu negocio.</p>
               </div>
             </div>
           </div>

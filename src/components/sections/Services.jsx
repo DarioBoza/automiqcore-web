@@ -41,10 +41,10 @@ export function Services() {
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Nuestras Soluciones</h2>
-          <h3 className="text-3xl md:text-5xl font-bold mb-6 text-white">
+          <h3 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
             Tecnología que <span className="text-gradient-brand">multiplica</span> tus resultados
           </h3>
-          <p className="text-lg text-white/70">
+          <p className="text-lg text-foreground/70">
             No vendemos software, implementamos sistemas que hacen a tu equipo más eficiente y a tu empresa más rentable.
           </p>
         </div>
@@ -58,11 +58,11 @@ export function Services() {
               <div className="w-16 h-16 rounded-2xl bg-brand/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 {service.icon}
               </div>
-              <h4 className="text-xl font-bold text-white mb-3">{service.title}</h4>
-              <p className="text-white/60 mb-6 leading-relaxed">
+              <h4 className="text-xl font-bold text-foreground mb-3">{service.title}</h4>
+              <p className="text-foreground/60 mb-6 leading-relaxed">
                 {service.description}
               </p>
-              <div className="pt-4 border-t border-white/10">
+              <div className="pt-4 border-t border-foreground/10">
                 <p className="text-sm font-medium text-brand">
                   ✓ {service.benefit}
                 </p>
