@@ -5,7 +5,8 @@ import { Services } from "@/components/sections/Services";
 import { Process } from "@/components/sections/Process";
 import { Benefits } from "@/components/sections/Benefits";
 import { UseCases } from "@/components/sections/UseCases";
-import { CallToAction } from "@/components/sections/CallToAction";
+import { ContactForm } from "@/components/sections/ContactForm";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -17,9 +18,10 @@ export default function Home() {
         <Process />
         <Benefits />
         <UseCases />
-        <CallToAction />
+        <ContactForm />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

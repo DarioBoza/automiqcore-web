@@ -28,8 +28,8 @@ export function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button href="#contacto" size="lg" className="w-full sm:w-auto flex items-center gap-2">
-              Agenda una consulta <ArrowRight className="w-5 h-5" />
+            <Button href="#formulario-contacto" size="lg" className="w-full sm:w-auto flex items-center gap-2">
+              Contáctanos <ArrowRight className="w-5 h-5" />
             </Button>
             <Button href="#servicios" variant="outline" size="lg" className="w-full sm:w-auto">
               Ver servicios

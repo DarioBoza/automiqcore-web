@@ -48,8 +48,8 @@ export function Header() {
                 {link.name}
               </Link>
             ))}
-            <Button href="#contacto" size="sm">
-              Agendar Llamada
+            <Button href="#formulario-contacto" size="sm">
+              Contáctanos
             </Button>
           </nav>
 
@@ -76,8 +76,8 @@ export function Header() {
               {link.name}
             </Link>
           ))}
-          <Button href="#contacto" className="mt-4 w-full" onClick={() => setIsMobileMenuOpen(false)}>
-            Agendar Llamada
+          <Button href="#formulario-contacto" className="mt-4 w-full" onClick={() => setIsMobileMenuOpen(false)}>
+            Contáctanos
           </Button>
         </div>
       )}
