@@ -19,10 +19,10 @@ export function Header() {
   }, []);
 
   const navLinks = [
-    { name: 'Servicios', href: '#servicios' },
-    { name: 'Proceso', href: '#proceso' },
-    { name: 'Beneficios', href: '#beneficios' },
-    { name: 'Casos de Uso', href: '#casos-uso' },
+    { name: 'Servicios', href: '/servicios' },
+    { name: 'Proceso', href: '/proceso' },
+    { name: 'Beneficios', href: '/beneficios' },
+    { name: 'Casos de Uso', href: '/casos-uso' },
   ];
 
   return (
@@ -51,7 +51,7 @@ export function Header() {
             ))}
             <div className="flex items-center gap-4">
               <ThemeToggle />
-              <Button href="#formulario-contacto" size="sm">
+              <Button href="/contacto" size="sm">
                 Contáctanos
               </Button>
             </div>
@@ -83,7 +83,7 @@ export function Header() {
               {link.name}
             </Link>
           ))}
-          <Button href="#formulario-contacto" className="mt-4 w-full" onClick={() => setIsMobileMenuOpen(false)}>
+          <Button href="/contacto" className="mt-4 w-full" onClick={() => setIsMobileMenuOpen(false)}>
             Contáctanos
           </Button>
         </div>
