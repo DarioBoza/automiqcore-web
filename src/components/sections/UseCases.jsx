@@ -75,32 +75,32 @@ export function UseCases() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {cases.map((useCase, index) => (
-            <div key={index} className="glass-card p-6 border border-foreground/5 flex flex-col gap-5 hover:border-foreground/10 transition-all hover:-translate-y-1">
+            <div key={index} className="glass-card p-6 md:p-8 border border-foreground/5 flex flex-col gap-6 hover:border-foreground/10 transition-all hover:-translate-y-1">
               <div>
-                <span className="text-brand text-[10px] font-bold tracking-wider uppercase mb-2 block">{useCase.category}</span>
-                <h4 className="text-lg font-bold text-foreground leading-snug">{useCase.title}</h4>
+                <span className="text-brand text-xs font-bold tracking-wider uppercase mb-3 block">{useCase.category}</span>
+                <h4 className="text-xl font-bold text-foreground leading-snug">{useCase.title}</h4>
               </div>
 
-              <div className="space-y-4 mt-auto">
+              <div className="space-y-5 mt-auto">
                 <div>
-                  <h5 className="text-foreground text-xs font-semibold mb-1.5 flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-red-500/80" /> Problema
+                  <h5 className="text-foreground text-sm font-semibold mb-2 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-red-500/80" /> Problema
                   </h5>
-                  <p className="text-foreground/60 text-xs leading-relaxed">{useCase.problem}</p>
+                  <p className="text-foreground/60 text-sm leading-relaxed">{useCase.problem}</p>
                 </div>
                 <div>
-                  <h5 className="text-foreground text-xs font-semibold mb-1.5 flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand/80" /> Automatización
+                  <h5 className="text-foreground text-sm font-semibold mb-2 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-brand/80" /> Automatización
                   </h5>
-                  <p className="text-foreground/60 text-xs leading-relaxed">{useCase.solution}</p>
+                  <p className="text-foreground/60 text-sm leading-relaxed">{useCase.solution}</p>
                 </div>
-                <div className="pt-3 border-t border-foreground/5">
-                  <h5 className="text-foreground text-xs font-semibold mb-1.5 flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-green-500/80" /> Resultado
+                <div className="pt-4 border-t border-foreground/5">
+                  <h5 className="text-foreground text-sm font-semibold mb-2 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-green-500/80" /> Resultado
                   </h5>
-                  <p className="text-foreground/80 text-xs font-medium leading-relaxed">{useCase.result}</p>
+                  <p className="text-foreground/80 text-sm font-medium leading-relaxed">{useCase.result}</p>
                 </div>
               </div>
             </div>
