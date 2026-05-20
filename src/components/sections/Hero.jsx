@@ -24,14 +24,14 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Ayudamos a empresas a optimizar procesos, reducir costos y escalar resultados mediante automatizaciones avanzadas y agentes de IA personalizados.
+            Ayudamos a empresas a optimizar procesos, reducir costos y escalar resultados mediante automatizaciones avanzadas y agentes Digitales personalizados.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button href="#formulario-contacto" size="lg" className="w-full sm:w-auto flex items-center gap-2">
+            <Button href="/contacto" size="lg" className="w-full sm:w-auto flex items-center gap-2">
               Contáctanos <ArrowRight className="w-5 h-5" />
             </Button>
-            <Button href="#servicios" variant="outline" size="lg" className="w-full sm:w-auto">
+            <Button href="/servicios" variant="outline" size="lg" className="w-full sm:w-auto">
               Ver servicios
             </Button>
           </div>

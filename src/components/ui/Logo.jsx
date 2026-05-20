@@ -18,7 +18,7 @@ export function LogoIcon({ className = "w-[51px] h-12" }) {
     <Image
       src={logoSrc}
       alt="AUTOMIQ CORE Logo"
-      width={60}
+      width={100}
       height={50}
       className={className}
       priority
