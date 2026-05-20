@@ -17,7 +17,7 @@ export function ContactForm() {
               Cuéntanos sobre tu negocio
             </h3>
             <p className="text-foreground/60 leading-relaxed mb-8">
-              Completa el formulario y te responderemos en menos de 24 horas con un análisis inicial de cómo podemos ayudarte.
+              Completa el formulario para evaluar tu caso. Analizaremos tus operaciones actuales y te propondremos una ruta de optimización técnica sin costo.
             </p>
 
             <div className="flex flex-col gap-5">
@@ -115,20 +115,20 @@ export function ContactForm() {
 
                 <div className="flex flex-col gap-1.5">
                   <label htmlFor="servicio" className="text-sm text-foreground/60 font-medium">
-                    ¿En qué servicio estás interesado?
+                    ¿En qué solución estás interesado?
                   </label>
                   <select
                     id="servicio"
                     name="servicio"
                     className="bg-foreground/5 border border-foreground/10 rounded-xl px-4 py-3 text-foreground text-sm focus:outline-none focus:border-brand/60 transition-colors appearance-none"
                   >
-                    <option value="" className="bg-background text-foreground">Selecciona un servicio...</option>
-                    <option value="Agendar Llamada" className="bg-background text-brand font-bold">📅 Agendar una Llamada Estratégica</option>
-                    <option value="Automatizaciones con IA" className="bg-background text-foreground">Automatizaciones con IA</option>
-                    <option value="Agentes de IA" className="bg-background text-foreground">Agentes de IA Personalizados</option>
-                    <option value="Landing Webs" className="bg-background text-foreground">Landing Webs de Alta Conversión</option>
-                    <option value="Webs Profesionales" className="bg-background text-foreground">Webs Profesionales</option>
-                    <option value="Integraciones de Sistemas" className="bg-background text-foreground">Integraciones de Sistemas</option>
+                    <option value="" className="bg-background text-foreground">Selecciona una solución...</option>
+                    <option value="Agendar Llamada" className="bg-background text-brand font-bold">📅 Diagnóstico Técnico Inicial</option>
+                    <option value="Automatizacion de Procesos" className="bg-background text-foreground">Automatización de Procesos</option>
+                    <option value="Sistemas de Atencion" className="bg-background text-foreground">Sistemas de Atención Automatizada</option>
+                    <option value="Plataformas Web" className="bg-background text-foreground">Plataformas Web y Portales Corporativos</option>
+                    <option value="Paginas de Captacion CRO" className="bg-background text-foreground">Páginas de Captación y CRO</option>
+                    <option value="Integracion de Sistemas" className="bg-background text-foreground">Integración de Sistemas y Datos</option>
                   </select>
                 </div>
 

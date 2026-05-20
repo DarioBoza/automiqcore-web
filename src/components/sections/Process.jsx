@@ -3,23 +3,23 @@ import React from 'react';
 const steps = [
   {
     number: "01",
-    title: "Diagnóstico Profundo",
-    description: "Analizamos tus operaciones actuales, identificamos cuellos de botella y evaluamos la viabilidad técnica y el ROI de implementar soluciones de IA."
+    title: "Diagnóstico Operativo",
+    description: "Mapeamos tus flujos de trabajo actuales, rastreamos el flujo de datos e identificamos cuellos de botella críticos para proyectar el retorno de inversión (ROI) financiero de cada automatización."
   },
   {
     number: "02",
-    title: "Diseño de Solución",
-    description: "Arquitectamos el sistema exacto que necesitas. Seleccionamos las mejores herramientas (LLMs, automatizadores) y trazamos el mapa de implementación."
+    title: "Arquitectura de Sistemas",
+    description: "Diseñamos el plano técnico del sistema. Definimos los esquemas de bases de datos, las conexiones vía API y los protocolos de procesamiento lógico idóneos para tu negocio."
   },
   {
     number: "03",
-    title: "Implementación",
-    description: "Desarrollamos, integramos y probamos exhaustivamente la solución en tu entorno, asegurando que funcione sin interrumpir tus operaciones diarias."
+    title: "Desarrollo e Integración",
+    description: "Codificamos, configuramos los entornos y realizamos pruebas rigurosas en ambientes de staging para garantizar una transición suave, libre de fricciones y sin detener tus operaciones."
   },
   {
     number: "04",
-    title: "Optimización Continua",
-    description: "Monitoreamos el rendimiento, ajustamos parámetros y escalamos las soluciones a medida que tu empresa crece y las tecnologías avanzan."
+    title: "Soporte y Escalabilidad",
+    description: "Monitoreamos la infraestructura digital de forma constante para prevenir incidentes, adaptamos las integraciones a nuevas herramientas y expandimos el sistema a la par del crecimiento de tu empresa."
   }
 ];
 
@@ -29,12 +29,12 @@ export function Process() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Cómo Trabajamos</h2>
+          <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Metodología de Trabajo</h2>
           <h3 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-            Un método probado hacia la <span className="text-gradient-brand">eficiencia</span>
+            Ingeniería aplicada a la <span className="text-gradient-brand">eficiencia</span>
           </h3>
           <p className="text-lg text-foreground/70">
-            No improvisamos. Nuestro proceso garantiza resultados medibles y una transición fluida hacia operaciones impulsadas por IA.
+            No improvisamos. Aplicamos un proceso riguroso que garantiza la estabilidad de los sistemas y la consistencia en el rendimiento operativo de tu negocio.
           </p>
         </div>
 

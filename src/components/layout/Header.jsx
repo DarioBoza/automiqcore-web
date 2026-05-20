@@ -22,7 +22,7 @@ export function Header() {
     { name: 'Servicios', href: '/servicios' },
     { name: 'Proceso', href: '/proceso' },
     { name: 'Beneficios', href: '/beneficios' },
-    { name: 'Casos de Uso', href: '/casos-uso' },
+    { name: 'Automatización', href: '/automatizacion' },
   ];
 
   return (

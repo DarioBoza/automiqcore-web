@@ -2,7 +2,7 @@ import { Services } from "@/components/sections/Services";
 
 export const metadata = {
   title: "Servicios | AUTOMIQ -CORE-",
-  description: "Descubre nuestros servicios de Inteligencia Artificial para negocios.",
+  description: "Líneas de especialización en sistemas digitales y automatización operativa para empresas B2B.",
 };
 
 export default function ServiciosPage() {

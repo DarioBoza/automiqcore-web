@@ -8,14 +8,14 @@ export function Footer() {
     <footer className="bg-dark-lighter border-t border-foreground/5 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 mb-12">
-          
+
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <LogoIcon className="w-8 h-8" />
               <BrandName className="text-lg" />
             </Link>
             <p className="text-foreground/60 text-sm leading-relaxed mb-6">
-              Transformando negocios B2B mediante automatizaciones inteligentes y agentes de IA personalizados. Resultados medibles, tecnología de vanguardia.
+              Sistemas de información, automatización operativa e integraciones de datos para empresas B2B. Estabilidad tecnológica para sostener tu escala de negocio.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center text-foreground/70 hover:bg-brand hover:text-white transition-all">
@@ -30,10 +30,10 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-foreground mb-6">Servicios</h4>
             <ul className="flex flex-col gap-4 text-sm text-foreground/60">
-              <li><Link href="#" className="hover:text-brand transition-colors">Automatizaciones con IA</Link></li>
-              <li><Link href="#" className="hover:text-brand transition-colors">Agentes de IA</Link></li>
-              <li><Link href="#" className="hover:text-brand transition-colors">Landing Webs</Link></li>
-              <li><Link href="#" className="hover:text-brand transition-colors">Integraciones de Sistemas</Link></li>
+              <li><Link href="/servicios" className="hover:text-brand transition-colors">Automatización Operativa</Link></li>
+              <li><Link href="/automatizacion" className="hover:text-brand transition-colors">Atención Automatizada</Link></li>
+              <li><Link href="/servicios" className="hover:text-brand transition-colors">Webs de Captación y CRO</Link></li>
+              <li><Link href="/servicios" className="hover:text-brand transition-colors">Integración de Software y Datos</Link></li>
             </ul>
           </div>
 
@@ -52,15 +52,14 @@ export function Footer() {
             <ul className="flex flex-col gap-4 text-sm text-foreground/60">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-brand" />
-                <a href="mailto:contacto@automiqcore.com" className="hover:text-foreground transition-colors">
-                  contacto@automiqcore.com
+                <a href="mailto:hectordariobozacarrasco@gmail.com" className="hover:text-foreground transition-colors">
+                  hectordariobozacarrasco@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-brand">📍</span>
+                <span className="text-brand">📞</span>
                 <span>
-                  Edificio Empresarial Tech<br />
-                  Ciudad de México, México
+                  +51 933 805 954<br />
                 </span>
               </li>
             </ul>

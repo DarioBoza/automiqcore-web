@@ -2,7 +2,7 @@ import { Benefits } from "@/components/sections/Benefits";
 
 export const metadata = {
   title: "Beneficios | AUTOMIQ -CORE-",
-  description: "Los beneficios de integrar inteligencia artificial en tu negocio.",
+  description: "Las ventajas estratégicas de optimizar tus procesos con sistemas digitales y automatización robusta.",
 };
 
 export default function BeneficiosPage() {

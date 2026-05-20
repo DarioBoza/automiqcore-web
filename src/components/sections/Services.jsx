@@ -4,33 +4,33 @@ import { Workflow, Bot, LayoutTemplate, Globe, Network } from 'lucide-react';
 const services = [
   {
     icon: <Workflow className="w-8 h-8 text-brand" />,
-    title: "Automatizaciones con IA",
-    description: "Elimina procesos manuales y cuellos de botella conectando tus herramientas diarias mediante flujos inteligentes y autónomos.",
-    benefit: "Ahorra hasta un 40% de tiempo operativo."
+    title: "Automatización de Procesos",
+    description: "Diseñamos e integramos flujos de trabajo autónomos que enlazan tus sistemas internos, erradicando tareas manuales repetitivas y cuellos de botella operativos.",
+    benefit: "Libera al talento humano de la carga operativa rutinaria."
   },
   {
     icon: <Bot className="w-8 h-8 text-brand" />,
-    title: "Agentes de IA Personalizados",
-    description: "Desarrollamos asistentes virtuales entrenados con la base de conocimiento de tu empresa para atención al cliente y soporte interno.",
-    benefit: "Disponibilidad 24/7 y respuestas instantáneas."
+    title: "Sistemas de Atención Automatizada",
+    description: "Desarrollamos soluciones de procesamiento de lenguaje natural e integraciones de datos que responden consultas de clientes, califican leads y coordinan agendas sin intervención humana.",
+    benefit: "Disponibilidad garantizada y respuestas precisas 24/7."
   },
   {
     icon: <LayoutTemplate className="w-8 h-8 text-brand" />,
-    title: "Landing Webs de Alta Conversión",
-    description: "Diseñamos páginas de aterrizaje enfocadas 100% en captar leads calificados y aumentar tus ventas mediante estrategias CRO.",
-    benefit: "Maximiza el ROI de tus campañas publicitarias."
+    title: "Plataformas Web y Portales Corporativos",
+    description: "Desarrollamos infraestructuras web rápidas, seguras y escalables que transmiten el nivel de autoridad y profesionalismo premium de tu organización.",
+    benefit: "Seguridad y rendimiento alineados a estándares empresariales."
   },
   {
     icon: <Globe className="w-8 h-8 text-brand" />,
-    title: "Webs Profesionales",
-    description: "Plataformas web modernas, rápidas y escalables que reflejan la autoridad y el nivel de servicio premium de tu negocio.",
-    benefit: "Construye confianza y autoridad digital."
+    title: "Sistemas de Conversión y CRO",
+    description: "Estructuramos plataformas de aterrizaje optimizadas técnicamente para maximizar la captación de leads comerciales y acelerar tus ciclos de ventas.",
+    benefit: "Incremento medible del retorno de tus activos digitales."
   },
   {
     icon: <Network className="w-8 h-8 text-brand" />,
-    title: "Integraciones de Sistemas",
-    description: "Conectamos tu CRM, ERP, pasarelas de pago y software a medida para que la información fluya sin intervención humana.",
-    benefit: "Cero errores humanos en transferencia de datos."
+    title: "Integración de Sistemas y Datos",
+    description: "Unificamos de forma robusta tu CRM, ERP, bases de datos y herramientas de terceros para lograr flujos de información bidireccionales y centralizados.",
+    benefit: "Centralización absoluta y eliminación de errores de captura."
   }
 ];
 
@@ -38,20 +38,20 @@ export function Services() {
   return (
     <section id="servicios" className="py-24 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Nuestras Soluciones</h2>
+          <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Líneas de Especialización</h2>
           <h3 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-            Tecnología que <span className="text-gradient-brand">multiplica</span> tus resultados
+            Sistemas que <span className="text-gradient-brand">optimizan</span> tu operación
           </h3>
           <p className="text-lg text-foreground/70">
-            No vendemos software, implementamos sistemas que hacen a tu equipo más eficiente y a tu empresa más rentable.
+            No vendemos soluciones genéricas. Diseñamos e integramos la infraestructura digital que requiere tu negocio para operar de forma eficiente y ordenada.
           </p>
         </div>
 
         <div className="flex flex-wrap justify-center gap-8">
           {services.map((service, index) => (
-            <div 
+            <div
               key={index}
               className="glass-card p-8 group hover:-translate-y-2 transition-all duration-300 hover:shadow-[0_0_30px_rgba(63,22,253,0.15)] w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1.5rem)]"
             >

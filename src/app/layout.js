@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "AUTOMIQ -CORE- | Agencia de IA para Negocios B2B",
-  description: "Transformamos empresas con agentes de IA, automatizaciones inteligentes y landing pages de alta conversión.",
+  title: "AUTOMIQ -CORE- | Sistemas y Automatización Operativa B2B",
+  description: "Diseño e integración de infraestructuras digitales, automatización de procesos e integración de sistemas para empresas B2B.",
 };
 
 export default function RootLayout({ children }) {

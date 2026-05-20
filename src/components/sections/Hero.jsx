@@ -15,24 +15,24 @@ export function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-brand"></span>
             </span>
-            La Agencia de IA para el Futuro B2B
+            Sistemas y Automatización Operativa para Empresas B2B
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8">
-            Impulsa tu negocio con <br className="hidden md:block" />
-            <span className="text-gradient-brand">Soluciones Digitales</span>
+            Automatiza tus operaciones. <br className="hidden md:block" />
+            <span className="text-gradient-brand">Escala tu crecimiento.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Ayudamos a empresas a optimizar procesos, reducir costos y escalar resultados mediante Webs, Automatizaciones avanzadas y Agentes Inteligentes personalizados.
+            Diseñamos e integramos infraestructuras digitales a medida que eliminan tareas repetitivas, conectan tus herramientas y aceleran el rendimiento de tu empresa sin aumentar tu nómina.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button href="/contacto" size="lg" className="w-full sm:w-auto flex items-center gap-2">
-              Contáctanos <ArrowRight className="w-5 h-5" />
+              Optimizar mis procesos <ArrowRight className="w-5 h-5" />
             </Button>
             <Button href="/servicios" variant="outline" size="lg" className="w-full sm:w-auto">
-              Ver servicios
+              Ver soluciones
             </Button>
           </div>
         </div>
@@ -44,24 +44,24 @@ export function Hero() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
               <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-foreground/5 flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-brand/20 rounded-xl flex items-center justify-center mb-4 text-brand">
-                  <Bot className="w-6 h-6" />
+                  <Zap className="w-6 h-6" />
                 </div>
-                <h3 className="text-foreground font-semibold mb-2">Agentes Inteligentes</h3>
-                <p className="text-sm text-foreground/60">Atención 24/7 y resolución automática de consultas frecuentes.</p>
+                <h3 className="text-foreground font-semibold mb-2">Optimización de Procesos</h3>
+                <p className="text-sm text-foreground/60">Flujos de trabajo conectados que reducen hasta un 90% las tareas manuales repetitivas.</p>
               </div>
               <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-foreground/5 flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-brand/20 rounded-xl flex items-center justify-center mb-4 text-brand">
-                  <Zap className="w-6 h-6" />
+                  <Bot className="w-6 h-6" />
                 </div>
-                <h3 className="text-foreground font-semibold mb-2">Automatización Total</h3>
-                <p className="text-sm text-foreground/60">Conectamos tus herramientas para eliminar tareas repetitivas.</p>
+                <h3 className="text-foreground font-semibold mb-2">Atención Automatizada</h3>
+                <p className="text-sm text-foreground/60">Sistemas inteligentes integrados en tus canales para atender, calificar y agendar 24/7.</p>
               </div>
               <div className="bg-dark-lighter/50 rounded-2xl p-6 border border-foreground/5 flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-brand/20 rounded-xl flex items-center justify-center mb-4 text-brand">
                   <BarChart3 className="w-6 h-6" />
                 </div>
-                <h3 className="text-foreground font-semibold mb-2">Decisiones con Datos</h3>
-                <p className="text-sm text-foreground/60">Análisis predictivo para impulsar el crecimiento de tu negocio.</p>
+                <h3 className="text-foreground font-semibold mb-2">Infraestructura Escalable</h3>
+                <p className="text-sm text-foreground/60">Bases de datos y conexiones robustas que unifican tu información de extremo a extremo.</p>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@ import { ContactForm } from "@/components/sections/ContactForm";
 
 export const metadata = {
   title: "Contacto | AUTOMIQ -CORE-",
-  description: "Ponte en contacto con nosotros para transformar tu negocio.",
+  description: "Ponte en contacto con nuestro equipo para diseñar e integrar tu próxima infraestructura de automatización.",
 };
 
 export default function ContactoPage() {

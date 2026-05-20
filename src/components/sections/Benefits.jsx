@@ -4,23 +4,23 @@ import { Target, Lightbulb, TrendingUp, ShieldCheck } from 'lucide-react';
 const benefits = [
   {
     icon: <Target className="w-6 h-6 text-brand" />,
-    title: "Enfoque en Resultados",
-    description: "No implementamos tecnología por moda. Cada proyecto está diseñado para impactar directamente en tus KPIs: más ventas, menos costos operativos o mayor retención de clientes."
+    title: "Enfoque en Rentabilidad",
+    description: "No instalamos tecnología por moda. Cada flujo de información y sistema integrado está estructurado para impactar directamente tus KPIs de negocio: reducción de costos operativos, velocidad de entrega o retención de cuentas."
   },
   {
     icon: <Lightbulb className="w-6 h-6 text-brand" />,
-    title: "Soluciones a Medida",
-    description: "Entendemos que cada negocio es único. Adaptamos los modelos de IA y flujos de trabajo específicamente a tu industria, procesos y desafíos particulares."
+    title: "Arquitectura a Medida",
+    description: "No creemos en soluciones genéricas listas para usar. Adaptamos la lógica de automatización y el modelado de datos a la infraestructura de software y procesos particulares de tu organización."
   },
   {
     icon: <TrendingUp className="w-6 h-6 text-brand" />,
-    title: "IA Práctica y Escalable",
-    description: "Nos alejamos de la teoría. Entregamos herramientas funcionales que tu equipo puede usar desde el día uno y que crecen junto con tu empresa."
+    title: "Sistemas Robustos y Escalables",
+    description: "Desarrollamos bajo estándares de alta estabilidad y documentación. Creamos flujos limpios y modulares que tu equipo puede operar con confianza y que crecen orgánicamente junto con la empresa."
   },
   {
     icon: <ShieldCheck className="w-6 h-6 text-brand" />,
-    title: "Acompañamiento Continuo",
-    description: "La tecnología evoluciona rápido y nosotros estamos a tu lado. Ofrecemos soporte, mantenimiento y entrenamiento para asegurar el éxito a largo plazo."
+    title: "Soporte e Ingeniería Continua",
+    description: "Las herramientas y APIs cambian constantemente. Estamos a tu lado con un servicio de mantenimiento preventivo, optimización proactiva y actualizaciones de seguridad a largo plazo."
   }
 ];
 
@@ -34,22 +34,22 @@ export function Benefits() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
           <div>
-            <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Por qué elegirnos</h2>
+            <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Ventajas Competitivas</h2>
             <h3 className="text-3xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
-              Diferenciales que marcan la <span className="text-gradient-brand">diferencia</span>
+              Sólida experiencia para tu <span className="text-gradient-brand">tranquilidad</span>
             </h3>
             <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-              En AutomIq -CORE-, no somos solo desarrolladores; somos consultores de negocio especializados en Servicios Digitales. Nuestro compromiso es transformar la complejidad tecnológica en rentabilidad simple y clara.
+              En AUTOMIQ -CORE- actuamos como tus socios tecnológicos y consultores de sistemas. Diseñamos e implementamos flujos operativos estables y seguros, eliminando el desorden manual para que te enfoques exclusivamente en la estrategia de tu negocio.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-8">
               <div className="glass-card p-6 border-l-2 border-l-brand rounded-r-2xl border-y border-r border-foreground/5">
                 <div className="text-3xl font-black text-foreground mb-1">+40%</div>
-                <div className="text-sm text-foreground/60">Ahorro en tiempo operativo</div>
+                <div className="text-sm text-foreground/60">Eficiencia en tiempos operativos</div>
               </div>
               <div className="glass-card p-6 border-l-2 border-l-brand rounded-r-2xl border-y border-r border-foreground/5">
-                <div className="text-3xl font-black text-foreground mb-1">24/7</div>
-                <div className="text-sm text-foreground/60">Operatividad sin interrupciones</div>
+                <div className="text-3xl font-black text-foreground mb-1">0%</div>
+                <div className="text-sm text-foreground/60">Fricción en transferencia de datos</div>
               </div>
             </div>
           </div>
