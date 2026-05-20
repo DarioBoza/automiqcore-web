@@ -29,19 +29,19 @@ export function Benefits() {
     <section id="beneficios" className="py-24 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand/10 rounded-full blur-[100px] pointer-events-none" />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          
+
           <div>
             <h2 className="text-sm font-bold text-brand uppercase tracking-wider mb-2">Por qué elegirnos</h2>
             <h3 className="text-3xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
               Diferenciales que marcan la <span className="text-gradient-brand">diferencia</span>
             </h3>
             <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-              En AUTOMIQ -CORE-, no somos solo desarrolladores; somos consultores de negocio especializados en Inteligencia Artificial. Nuestro compromiso es transformar la complejidad tecnológica en rentabilidad simple y clara.
+              En AutomIq -CORE-, no somos solo desarrolladores; somos consultores de negocio especializados en Servicios Digitales. Nuestro compromiso es transformar la complejidad tecnológica en rentabilidad simple y clara.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-8">
               <div className="glass-card p-6 border-l-2 border-l-brand rounded-r-2xl border-y border-r border-foreground/5">
                 <div className="text-3xl font-black text-foreground mb-1">+40%</div>

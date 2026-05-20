@@ -24,7 +24,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Ayudamos a empresas a optimizar procesos, reducir costos y escalar resultados mediante automatizaciones avanzadas y agentes Digitales personalizados.
+            Ayudamos a empresas a optimizar procesos, reducir costos y escalar resultados mediante Webs, Automatizaciones avanzadas y Agentes Inteligentes personalizados.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
