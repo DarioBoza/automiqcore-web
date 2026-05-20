@@ -20,7 +20,7 @@ export function Hero() {
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8">
             Impulsa tu negocio con <br className="hidden md:block" />
-            <span className="text-gradient-brand">Inteligencia Artificial</span>
+            <span className="text-gradient-brand">Soluciones Digitales</span>
           </h1>
 
           <p className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed">

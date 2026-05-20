@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useTheme } from 'next-themes';
 
-export function LogoIcon({ className = "w-12 h-12" }) {
+export function LogoIcon({ className = "w-[51px] h-12" }) {
   const { resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -18,8 +18,8 @@ export function LogoIcon({ className = "w-12 h-12" }) {
     <Image
       src={logoSrc}
       alt="AUTOMIQ CORE Logo"
-      width={48}
-      height={48}
+      width={60}
+      height={50}
       className={className}
       priority
     />

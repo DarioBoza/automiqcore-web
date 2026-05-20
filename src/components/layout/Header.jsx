@@ -34,7 +34,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
-            <LogoIcon className="w-12 h-12" />
+            <LogoIcon className="w-[51px] h-12" />
             <BrandName className="text-xl" />
           </Link>
 
